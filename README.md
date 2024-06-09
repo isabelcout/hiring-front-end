@@ -1,51 +1,45 @@
+## Como usar
 
-## Objetivo
-Construir uma aplicação web em ReactJS que tenha o comportamento de um e-commerce.
+### ⭐ Instalação dos pacotes
 
-## Como começar
-Dar um fork no projeto, clonar o repositório em sua máquina local e criar um branch novo para o seu código.
+Para instalar todas as dependências necessárias, execute o comando:
 
+> npm install
 
-## Regras de negócio
-•	Ao acessar a home, trazer a listagem de produtos vinda da API de referência.  
+### ⭐ Executar o projeto
 
-•	Ao digitar no campo de busca, deve-se trazer somente os resultados digitados.  
+Para iniciar o projeto em modo de desenvolvimento, utilize o seguinte comando:
 
-•	Ao clicar no botão "Adicionar ao carrinho", deve-se inserir o produto ao carrinho de compras.  
+> npm run dev
 
-•	No carrinho de compras, pode-se remover os produtos.  
+## 📚 Tecnologias Utilizadas
 
-•	No carrinho de compras, deve-se informar o total da compra.
+- React: Biblioteca JavaScript para construção de interfaces de usuário.
 
+- Vite: Ferramenta de build rápida e leve para desenvolvimento de projetos front-end.
 
-## Referências
-•	API de produtos: https://62d742f351e6e8f06f1a83da.mockapi.io/api/produtos
+- CSS: Estilos para a aplicação.
 
+- React Query: Gerenciamento de estado assíncrono e cache de dados.
 
-## Observações
-1. Não é necessário se preocupar com CORS ou implementar um backend para fazer as requisições. A API de produtos permite chamadas diretas do navegador.
+- TypeScript: Superset do JavaScript que adiciona tipagem estática ao código.
 
-2. Design de livre escolha.
+- Axios: Cliente HTTP baseado em Promises para realizar requisições.
 
+## 🛠️ Scripts Disponíveis
 
-## Requisitos Técnicos para a entrega do teste
+- npm install: Instala todas as dependências.
 
-•	Pode utilizar qualquer library de CSS e CSS-in-JS. (recomendamos Material UI, Bootstrap ou Styled Components. Pode fazer com CSS clássico também)
+- npm run dev: Inicia o servidor de desenvolvimento.
 
-•	O projeto deve ter uma documentação em readme ensinando a: 
-1. instalar o projeto na máquina (engines, versão de node, qual gerenciador de pacote usar)
-2. instalar as dependências do projeto
-3. rodar o ambiente de desenvolvimento
-4. rodar a build de deploy da aplicação.
+- npm run build: Cria uma build otimizada para produção.
 
-•	Pode utilizar tanto o Axios quanto ou Fetch para requisições.
+- npm run lint: Analisa o código em busca de problemas.
 
-•	Hospedar o projeto em um servidor (Heroku, Vercel, Netlify)
+- npm run format: Formata o código de acordo com as regras definidas.
 
-## Diferenciais técnicos
+## 💡 Dicas
 
-•	Utilização de typescript
+- Certifique-se de ter o Node.js instalado na sua máquina.
 
-•	Bom uso de context api ou outro gerenciamento de estados
-
-Boa sorte!
+- Para um desempenho ideal, use um editor de código que suporte TypeScript, como o Visual Studio Code.
